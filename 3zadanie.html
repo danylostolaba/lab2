@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+</head>
+<body>
+    <script>
+	let number = prompt("Введіть число:");
+	number = Number(number);
+	if (isNaN(number)) {
+		alert("Будь ласка, введіть правильне число!");
+	} else {
+		if (number % 2 === 0) {
+			alert("Number is even");
+		} else {
+			alert("Number is odd");
+		}
+	}
+    </script>
+</body>
+</html>

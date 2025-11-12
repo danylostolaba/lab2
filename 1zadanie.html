@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+</head>
+<body>
+    <script>
+        let userName = "Danylo";
+        console.log("Глобальне userName до блоку if:", userName);
+
+        if (true) {
+            let userName = prompt("Введіть інше ім'я:");
+            console.log("Локальне userName всередині if:", userName);
+        }
+
+        console.log("Глобальне userName після блоку if:", userName);
+    </script>
+</body>
+</html>
